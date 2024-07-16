@@ -54,7 +54,7 @@ public class ServerThread extends Thread {
 				System.out.println("받은메세지:" + msg);
 				
 				//메세지 보내기
-				bw.write(msg);
+				bw.write("[황일영]"+ msg);
 				bw.newLine();
 				bw.flush();
 				
